@@ -1,0 +1,29 @@
+{
+    "hash": "474e9c7839b1894c476eb606c5193353",
+    "packages": [
+        {
+            "name": "oauth-php/oauth-php",
+            "version": "157",
+            "source": {
+                "type": "svn",
+                "url": "http://oauth-php.googlecode.com/svn/",
+                "reference": "trunk/"
+            },
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "library/"
+                ]
+            }
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ]
+}
