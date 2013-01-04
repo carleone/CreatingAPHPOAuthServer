@@ -13,3 +13,5 @@ $db = new PDO('mysql:host=localhost;dbname=oauth', 'dbuser', 'dbpassword');
 // Create a new instance of OAuthStore and OAuthServer
 $store = OAuthStore::instance('PDO', array('conn' => $db));
 $server = new OAuthServer();
+
+?>
